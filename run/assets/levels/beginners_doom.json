@@ -1,0 +1,664 @@
+{
+	"id":1,
+	"name":"beginners_doom",
+	"description":"So, you thought this was easy? You're probably right.",
+	"player":[-4,265],
+	"player_speed":150,
+	"winzone":{
+		"pos": [870, -570],
+		"size":[120,120]
+	},
+	"walls":
+	[
+		{
+			"pos": [-410, 350],
+			"size":[4000,20],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-400, -2000],
+			"size":[20,4000],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-400, -1060],
+			"size":[4000,20],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1950, -2000],
+			"size":[20,4000],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-210, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, 150],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-210, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -50],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}, // -----
+		{
+			"pos": [-210, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -250],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}, //----
+				{
+			"pos": [-210, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -450],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}, // -----
+		{
+			"pos": [-210, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -650],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}, //----
+		{
+			"pos": [-210, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -850],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}, //-----
+		{
+			"pos": [-210, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-10, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [190, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [390, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [590, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [790, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [990, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1190, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1390, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1590, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1790, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [1990, -1050],
+			"size":[80,80],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-130, 30],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [-380, 30],
+			"size":[170,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [270, -170],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [-130, -170],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+
+			"pos": [-130, -370],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+
+			"pos": [-130, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+
+			"pos": [-130, -770],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [270, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [670, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [870, -370],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1070, -370],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1070, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1270, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [670, -770],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1670, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1870, -570],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1870, -770],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [1470, -370],
+			"size":[120,120],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		}
+
+	],
+	"enemies":[],
+	"texts":
+	[
+		{
+			"content":"Welcome to Level 2: Beginner's Doom",
+			"size":40,
+			"pos":[-375,300],
+			"color":[0,0,0,255]
+		}
+	]
+}

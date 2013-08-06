@@ -1,0 +1,8 @@
+{
+	"levels":
+	[
+		{"name":"starter"},
+		{"name":"beginners_doom"},
+		{"name":"winning_level"}
+	]
+}

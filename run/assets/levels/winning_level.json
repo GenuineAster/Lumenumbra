@@ -1,0 +1,18 @@
+{
+	"id":-1,
+	"name":"winning_level",
+	"description":"You Won! Good job!",
+	"player":[295,135],
+	"player_speed":100,
+	"walls":[],
+	"enemies":[],
+	"texts":
+	[
+		{
+			"content":"Congratulations!\nYou beat \nLumenumbra!",
+			"pos":[0,0],
+			"size":76,
+			"color":[0,0,0,255]
+		}
+	]
+}

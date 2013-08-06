@@ -1,0 +1,642 @@
+{
+	"id":0,
+	"name":"starter",
+	"description":"The Tutorial Level of Doom",
+	"player":[0,0],
+	"player_speed":100,
+	"winzone":{
+		"pos":[-150,3740],
+		"size":[290,80]
+	},
+	"walls":
+	[
+		//--Level limits
+		//Left
+		{
+			"pos": [-4010, -4000],
+			"size":[10,8000],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		//Right
+		{
+			"pos": [ 4000, -4000],
+			"size":[10,8000],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		//Top
+		{
+			"pos": [-4000, -4000],
+			"size":[8000,10],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		//Bottom
+		{
+			"pos": [-4000, 4000],
+			"size":[8000,10],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-200.0, 120.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [160.0, 120.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-200.0, 200.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [160.0, 200.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 280.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 280.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 360.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 360.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 360.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 360.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 440.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 440.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 520.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 520.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 600.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 600.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 680.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [ 140.0, 680.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 760.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 760.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-190.0, 840.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 840.0],
+			"size":[40.0, 40.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 920.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 920.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1010.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1010.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1100.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1100.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1190.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1190.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1280.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1280.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1370.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1370.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1460.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1460.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1550.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1550.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		//Thing to the right:
+		{
+			"pos":[300.0, 1640.0],
+			"size":[100,300],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [-230.0, 1640.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1640.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1730.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1730.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1820.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1820.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 1910.0],
+			"size":[80.0, 200.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 1910.0],
+			"size":[80.0, 200.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos":[-60, 1990.0],
+			"size":[120.0,10.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos":[-230, 2030.0],
+			"size":[220.0,40.0],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos":[0, 2030.0],
+			"size":[220.0,40.0],
+			"color":[255,255,255,255],
+			"use_in_lighting":false
+		},
+		{
+			"pos": [-230.0, 2120.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2120.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2210.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2210.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2300.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2300.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2390.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2390.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2480.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2480.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2570.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2570.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2660.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2660.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2750.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2750.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2840.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2840.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 2930.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 2930.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3020.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3020.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3110.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3110.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3200.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3200.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3290.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3290.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3380.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3380.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3470.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3470.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3560.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3560.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3650.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3650.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [-230.0, 3740.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		},
+		{
+			"pos": [140.0, 3740.0],
+			"size":[80.0, 80.0],
+			"color":[0,0,0,255],
+			"use_in_lighting":true
+		}
+	],
+	"enemies":[],
+	"texts":
+	[
+		{
+			"content":
+"Welcome to Lumenumbra!
+   Use the arrow keys to
+       move around.
+    Follow the corridor
+  to progress. Have fun!",
+			"pos":[-262,-137],
+			"size":42,
+			"color":[0,0,0,255]
+		},
+		{
+			"content":
+" Lumenumbra
+        is a
+ minimalistic
+ puzzle game
+   based on
+  lights and
+   shadows.
+
+
+
+Its name means
+ Light Shadow
+  in Latin.
+
+
+
+ It was made
+ in 72 hours 
+  with SFML,
+by Mischa Alff, 
+ a 15-year-old
+  student who
+   practices 
+  programming 
+  as a hobby.",
+			"pos":[-120.0,360.0],
+			"size":30,
+			"color":[0,0,0,255]
+		},
+		{
+			"content":"Some objects\ncan only be\nseen when in\nthe shadows.\nUse this to\nget through\n\"invisible\" walls.",
+			"pos":[-120, 1500.0],
+			"size":30,
+			"color":[0,0,0,255]
+		},
+		{
+			"content":"Press 'F' to go in fullscreen mode!",
+			"pos":[-300,-260],
+			"size":25,
+			"color":[0,0,0,255]
+		},
+		{
+			"content":"Gray boxes\nare the goal\nzone, they are\nvisible\neverywhere,\nboth in and\nout of shadows.\nGo through\nthem to win\nthe level!",
+			"pos":[-120, 2400],
+			"size":30,
+			"color":[0,0,0,255]
+		},
+		{
+			"content":"Congratulations!\nYou now know\nthe game\nmechanics\nand are ready\nto proceed\nto the next\nlevel.\nPlease proceed\nto the gray\nzone, to go\nto this next\nlevel.",
+			"pos":[-120,3000],
+			"size":30,
+			"color":[0,0,0,255]
+		}
+	]
+}
