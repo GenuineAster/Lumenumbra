@@ -21,8 +21,8 @@ Some objects can be seen, and create shadows, but others can only be seen in the
 ![alt text](http://i.imgur.com/mzW8cpD.png "Lumenumbra gameplay")
 
 # Downloads:
-* [Windows](url=http://files.astersoftworks.com/Games/Lumenumbra/Lumenumbra-win.zip)
+* [Windows](http://files.astersoftworks.com/Games/Lumenumbra/Lumenumbra-win.zip)
 * **Linux build coming "soon"(tm)**
 
 # Links:
-* [My Website!](url=http://destrock.com)
+* [My Website!](http://destrock.com)
