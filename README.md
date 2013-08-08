@@ -4,7 +4,7 @@ I present to you... **Lumenumbra**!
 
 (Made during the first SFML game jam)
 
-###### Version: 0.1 Beta
+###### Version: 0.2 Beta
 
 # Gameplay:
 Lumenumbra is a minimalistic lighting-based 2D game.
