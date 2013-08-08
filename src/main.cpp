@@ -6,8 +6,8 @@
  * Thanks for watching!
 */
 
-int main()
+int main(int argc, char** argv)
 {
-    Game{{800,600}}.run();
+    Game{argc, argv, {800,600}}.run();
     return 0; // <3
 }

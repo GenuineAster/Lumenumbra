@@ -5,7 +5,11 @@ void Entity::update_lighting_engine()
 {
 	auto &obj = light_engine->objects[lighting_engine_pos];
 	obj.position = shape.getPosition();
+	// obj.left = shape.getPosition().x;
+	// obj.top = shape.getPosition().y;
 	obj.size = shape.getSize();
+	// obj.width = shape.getSize().x;
+	// obj.height = shape.getSize().y;
 	obj.calculate_edges();
 }
 

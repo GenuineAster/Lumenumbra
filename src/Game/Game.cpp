@@ -19,17 +19,17 @@ void Game::parse_levels_file()
 		file_contents += a + "\n";
 	}
 	levels_file>>file_contents;
-	std::cout<<file_contents<<std::endl;
+	if(debug)std::cout<<file_contents<<std::endl;
 	if(!levels_reader.parse(file_contents, levels_root))
 	{
-		std::cout<<levels_reader.getFormattedErrorMessages();
+		if(debug)std::cout<<levels_reader.getFormattedErrorMessages();
 		return;
 	}
 	Json::Value json_levels = levels_root["levels"];
 	for(auto level_root : json_levels)
 	{
 		std::string name =  level_root["name"].asString();
-		std::cout<<name;
+		if(debug)std::cout<<name;
 		std::ifstream curr_level_file("assets/levels/" + name + ".json");
 		file_contents.clear();
 		while(curr_level_file.good())
@@ -38,14 +38,14 @@ void Game::parse_levels_file()
 			getline(curr_level_file, a);
 			file_contents += a + "\n";
 		}
-		std::cout<<file_contents;
+		if(debug)std::cout<<file_contents;
 		Json::Value root;
 		Json::Reader reader;
 		if(!reader.parse(file_contents, root))
 		{
-			std::cout<<"AAAH YOU FUCKED UP, IDIOT!"
-			         <<reader.getFormattedErrorMessages()
-			         <<std::endl;
+			if(debug)
+				std::cout<<reader.getFormattedErrorMessages()
+				         <<std::endl;
 			return;
 		}
 		levels.push_back({});
@@ -129,7 +129,7 @@ void Game::parse_levels_file()
 			text.setFont(font);
 		}
 
-		std::cout<<level.pos<<level.name<<level.description<<std::endl;
+		if(debug)std::cout<<"Loaded level: "<<level.pos<<level.name<<level.description<<std::endl;
 	}
 }
 
@@ -145,12 +145,32 @@ void Game::load_level()
 	speed = levels[current_level_pos].player_speed;
 }
 
+void Game::parse_arguments()
+{
+	std::vector<std::string> arguments;
+	for(int i{1}; i<argc; i++)
+		arguments.emplace_back(argv[i]);
+
+	for(auto &arg : arguments)
+	{
+		if(arg == "-debug")
+		{
+			debug = true;
+		}
+	}
+}
+
 void Game::initialize_game()
 {
+	parse_arguments();
 	font.loadFromFile("assets/fonts/DejaVuSans.ttf");
 	parse_levels_file();
-	++current_level_pos;
-	load_level();
+	if(!debug)
+	{
+		window.setFramerateLimit(120);
+		window.setVerticalSyncEnabled(true);
+	}
+	++current_level_pos, load_level();
 
 	light_engine.add_light(
 		{
@@ -184,7 +204,7 @@ void Game::handle_events()
 			);
 			view.setViewport({0.f,0.f,1.f,1.f});
 			view.zoom(600.f/window.getSize().y);
-			std::cout<<window.getSize().x<<"\t"<<window.getSize().y<<std::endl;
+			if(debug)std::cout<<window.getSize().x<<"\t"<<window.getSize().y<<std::endl;
 			break;
 
 		case sf::Event::KeyPressed:
@@ -228,10 +248,11 @@ void Game::handle_events()
 	}
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
 	{	
-		std::cout<<"Frametime:\t"<<frametime<<std::endl
-		         <<"Player position:\t"<<player.shape.getPosition().x
-		                        <<",\t"<<player.shape.getPosition().y
-		         <<std::endl;
+		if(debug)
+			std::cout<<"Frametime:\t"<<frametime<<std::endl
+			         <<"Player position:\t"<<player.shape.getPosition().x
+			                        <<",\t"<<player.shape.getPosition().y
+			         <<std::endl;
 	}
 
 }
@@ -293,11 +314,6 @@ void Game::move_player_from_wall(Entity &wall)
 
 void Game::update()
 {
-	/*for(auto &enemy : enemies)
-	{
-		enemy.update_target(player.shape.getPosition());
-		enemy.update(dt);
-	}*/
 	view.setCenter(player.shape.getPosition());
 	light_engine.lights[0].position = player.shape.getPosition();
 	auto a = levels[current_level_pos].winzone.shape.getGlobalBounds();
@@ -333,9 +349,6 @@ void Game::draw()
 	for(auto &wall : current_level.walls)
 		wall.render(window);
 
-	for(auto &enemy : current_level.enemies)
-		enemy.render(window);
-
 	current_level.winzone.render(window);
 
 	player.render(window);
@@ -364,12 +377,14 @@ void Game::run()
 	}
 }
 
-Game::Game(sf::VideoMode vmode) :
-	window{vmode, "SFML Jam #1!"},
+Game::Game(int argc_, char** argv_, sf::VideoMode vmode) :
+	window{vmode, "Lumenumbra v0.2 Beta"},
 	current_level_pos{-1},
-	speed{100}
+	speed{100},
+	argv{argv_},
+	argc{argc_},
+	debug{false}
 {
-
 	view.reset(
 		{
 			0,
