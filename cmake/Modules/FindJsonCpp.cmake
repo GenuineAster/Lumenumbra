@@ -10,8 +10,13 @@
 FIND_PATH(JSONCPP_INCLUDE_DIR json/json.h
 /usr/local/include
 /usr/include
+/usr/include/jsoncpp
+/include
+/usr/local/include/jsoncpp
 ${JSONCPP_ROOT}/include
+${JSONCPP_ROOT}/jsoncpp
 )
+
 
 # Get the GCC compiler version
 EXEC_PROGRAM(${CMAKE_CXX_COMPILER}
@@ -23,7 +28,7 @@ EXEC_PROGRAM(${CMAKE_CXX_COMPILER}
 SET(JSONCPP_NAMES ${JSONCPP_NAMES} libjson_linux-gcc-${_gcc_COMPILER_VERSION}_libmt.so libjson_mingw_libmt.a)
 FIND_LIBRARY(JSONCPP_LIBRARY
   NAMES ${JSONCPP_NAMES}
-  PATHS /usr/lib /usr/local/lib ${JSONCPP_ROOT}
+  PATHS /usr/lib /usr/local/lib ${JSONCPP_ROOT} ${JSONCPP_ROOT}/lib /lib
   )
 
 IF (JSONCPP_LIBRARY AND JSONCPP_INCLUDE_DIR)
